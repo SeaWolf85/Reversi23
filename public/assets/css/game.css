@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(177,224,177);
+    background-image: url("/assets/images/bg-green.png");
+    background-repeat: repeat;
+  }
+
+  .headerrow, #messagePane{
+
+    background-color: rgb(224,243,224);
+  }
+
+  .join_room_response, 
+  .left_room_response {
+    background-color: rgb(247, 247, 247);
+    
+  }
+  .chat_message{
+   font-size: 125%;
+   margin: 1px 1px 1px 1px;
+   color:rgb(0, 0, 0);
+  }
+
+  table#game_board{
+    border-radius: 30px;
+    margin:0px;
+    margin-bottom: 10px;;
+    padding:0px;
+    box-shadow: 0px 0px 5PX 5px rgba(26, 42, 38, 0.5) ;
+   
+
+  }
+  table#game_board td {
+    border: 1px solid black;
+    background-color: rgba(255,255,255,0.15);
+    backdrop-filter: blur(3px);
+    margin:0px;
+    padding:0px;
+
+  }
+
+  table#game_board tr td:last-of-type {
+    border-right: 0px solid black;
+    background-color: rgba(255,255,255,0.15);
+    backdrop-filter: blur(3px);
+    margin:0px;
+    padding:0px;
+
+  } 
+  table#game_board tr td:first-of-type {
+    border-left: 0px solid black;
+    background-color: rgba(255,255,255,0.15);
+    backdrop-filter: blur(3px);
+    margin:0px;
+    padding:0px;
+
+  }
+
+  table#game_board tr:first-of-type td{
+    border-top: 0px solid black;
+    background-color: rgba(255,255,255,0.15);
+    backdrop-filter: blur(3px);
+    margin:0px;
+    padding:0px;
+
+  }
+
+  table#game_board tr:last-of-type td{
+    border-bottom: 0px solid black;
+    background-color: rgba(255,255,255,0.15);
+    backdrop-filter: blur(3px);
+    margin:0px;
+    padding:0px;
+
+  }
+
+
+  td.hovered_over:hover {
+    background-image: url('/assets/images/hover.gif');
+  }
+
+  .progress {
+        height: 30px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        font-weight: bold;
+  }
+
+  tr:first-of-type td:first-of-type {
+    border-top-left-radius: 30px;
+  }
+  tr:first-of-type td:last-of-type{
+    border-top-right-radius: 30px;
+
+  }
+  th:last-of-type {
+    border-top-right-radius: 30px;
+  }
+  tr:last-of-type td:first-of-type {
+    border-bottom-left-radius: 30px;
+  }
+  tr:last-of-type td:last-of-type {
+    border-right: 0px;
+    border-bottom: 0px;
+    border-bottom-right-radius: 30px;
+    border-color: aqua;
+    
+  }
+  tr td:first-of-type{
+    border: 1px solid black;
+    border-left: 0px;
+  }
+
